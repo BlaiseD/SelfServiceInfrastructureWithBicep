@@ -1,0 +1,11 @@
+{
+  "if": {
+    "not": {
+      "field": "tags[Owner]",
+      "exists": "true"
+    }
+  },
+  "then": {
+    "effect": "deny"
+  }
+}
